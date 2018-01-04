@@ -99,7 +99,7 @@ of altering your PHPUnit configuration file (often `phpunit.xml`):
   bootstrap="bootstrap.php"
   >
     <listeners>
-        <listener class="Datto\PHPUnit\Listener\Entropy\Listener">
+        <listener class="Datto\PHPUnit\Entropy\Listener">
             <arguments>
                 <array>
                     <element key="seeding">
